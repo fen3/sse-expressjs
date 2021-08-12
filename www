@@ -48,14 +48,6 @@ function normalizePort(val) {
 
   return false;
 }
-process.on('uncaughtException', (error) => {
-  console.log('uncaughtException---------------------')
-  console.log(error)
-  // errorManagement.handler.handleError(error);
-  // if(!errorManagement.handler.isTrustedError(error))
-  //   process.exit(1)
-});
-
 
 /**
  * Event listener for HTTP server "error" event.
